@@ -1,14 +1,14 @@
-package com.springboot.blog.service.impl;
+package com.springboot.api.service.impl;
 
-import com.springboot.blog.entity.Role;
-import com.springboot.blog.entity.User;
-import com.springboot.blog.exception.BlogAPIException;
-import com.springboot.blog.payload.LoginDto;
-import com.springboot.blog.payload.RegisterDto;
-import com.springboot.blog.repository.RoleRepository;
-import com.springboot.blog.repository.UserRepository;
-import com.springboot.blog.security.JwtTokenProvider;
-import com.springboot.blog.service.AuthService;
+import com.springboot.api.entity.Role;
+import com.springboot.api.entity.User;
+import com.springboot.api.exception.BlogAPIException;
+import com.springboot.api.payload.LoginDto;
+import com.springboot.api.payload.RegisterDto;
+import com.springboot.api.repository.RoleRepository;
+import com.springboot.api.repository.UserRepository;
+import com.springboot.api.security.JwtTokenProvider;
+import com.springboot.api.service.AuthService;
 import jakarta.transaction.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
