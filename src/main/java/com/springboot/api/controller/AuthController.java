@@ -1,9 +1,9 @@
-package com.springboot.blog.controller;
+package com.springboot.api.controller;
 
-import com.springboot.blog.payload.JWTAuthResponse;
-import com.springboot.blog.payload.LoginDto;
-import com.springboot.blog.payload.RegisterDto;
-import com.springboot.blog.service.AuthService;
+import com.springboot.api.payload.JWTAuthResponse;
+import com.springboot.api.payload.LoginDto;
+import com.springboot.api.payload.RegisterDto;
+import com.springboot.api.service.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
