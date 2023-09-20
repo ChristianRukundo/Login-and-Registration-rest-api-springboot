@@ -1,4 +1,4 @@
-package com.springboot.blog.utils;
+package com.springboot.api.utils;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

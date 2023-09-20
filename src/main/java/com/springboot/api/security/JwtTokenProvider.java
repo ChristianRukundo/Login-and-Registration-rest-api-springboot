@@ -1,6 +1,6 @@
-package com.springboot.blog.security;
+package com.springboot.api.security;
 
-import com.springboot.blog.exception.BlogAPIException;
+import com.springboot.api.exception.BlogAPIException;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;

@@ -1,7 +1,7 @@
-package com.springboot.blog.config;
+package com.springboot.api.config;
 
-import com.springboot.blog.security.JwtAuthenticationEntryPoint;
-import com.springboot.blog.security.JwtAuthenticationFilter;
+import com.springboot.api.security.JwtAuthenticationEntryPoint;
+import com.springboot.api.security.JwtAuthenticationFilter;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.springboot.blog.security;
+package com.springboot.api.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

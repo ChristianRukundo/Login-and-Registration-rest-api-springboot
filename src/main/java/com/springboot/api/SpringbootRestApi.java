@@ -1,15 +1,14 @@
-package com.springboot.blog;
+package com.springboot.api;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class SpringbootBlogRestApiApplication {
+public class SpringbootRestApi {
 
 	@Bean
 	public ModelMapper modelMapper(){
@@ -17,6 +16,6 @@ public class SpringbootBlogRestApiApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootBlogRestApiApplication.class, args);
+		SpringApplication.run(SpringbootRestApi.class, args);
 	}
 }

@@ -1,7 +1,7 @@
-package com.springboot.blog.security;
+package com.springboot.api.security;
 
-import com.springboot.blog.entity.User;
-import com.springboot.blog.repository.UserRepository;
+import com.springboot.api.entity.User;
+import com.springboot.api.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

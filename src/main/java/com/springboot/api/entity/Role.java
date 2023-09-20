@@ -1,4 +1,4 @@
-package com.springboot.blog.entity;
+package com.springboot.api.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

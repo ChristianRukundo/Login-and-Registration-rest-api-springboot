@@ -1,6 +1,6 @@
-package com.springboot.blog.repository;
+package com.springboot.api.repository;
 
-import com.springboot.blog.entity.User;
+import com.springboot.api.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
